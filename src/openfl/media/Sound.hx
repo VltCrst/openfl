@@ -784,7 +784,7 @@ class Sound extends EventDispatcher
 		_parentBuffer.data = __buffer.data;
 		_parentBuffer.sampleRate = __buffer.sampleRate;
 
-		__buffer = a;
+		__buffer = _parentBuffer;
 		#else
 		return;
 		#end
