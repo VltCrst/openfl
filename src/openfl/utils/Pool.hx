@@ -1,6 +1,8 @@
 package openfl.utils;
 
 #if lime
+import openfl.utils._internal.IDestroyable;
+
 class Pool<T:IDestroyable> implements IPool<T>
 {
 	public var length(get, never):Int;

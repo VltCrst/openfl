@@ -2,7 +2,6 @@ package openfl.utils;
 
 #if lime
 import openfl.utils._internal.UInt8Array;
-import openfl.utils._internal.IDestroyable;
 import openfl.utils.Pool;
 
 class UInt8Pool implements IPooled

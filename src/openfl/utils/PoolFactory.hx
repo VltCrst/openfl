@@ -1,6 +1,8 @@
 package openfl.utils;
 
 #if lime
+import openfl.utils._internal.IDestroyable;
+
 abstract PoolFactory<T:IDestroyable>(() -> T)
 {
 	@:from public static inline function fromClass<T:IDestroyable>(classRef:Class<T>):PoolFactory<T>

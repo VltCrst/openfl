@@ -70,8 +70,8 @@ jobs:
 
       - name: Install Haxe dependencies
         run: |
-          curl --output ../hxcpp-4.3.45.zip --location https://github.com/HaxeFoundation/hxcpp/releases/download/v4.3.45/hxcpp-4.3.45.zip
-          haxelib install ../hxcpp-4.3.45.zip --quiet
+          curl --output ../hxcpp-4.3.143.zip --location https://github.com/HaxeFoundation/hxcpp/releases/download/v4.3.143/hxcpp-4.3.143.zip
+          haxelib install ../hxcpp-4.3.143.zip --quiet
           haxelib install format --quiet
           haxelib git hxp https://github.com/VltCrst/hxp fc4c83084c9b91b25a98e28981e08bc4a84c1476 --quiet
           haxelib git lime https://github.com/VltCrst/lime 5500313001d4453e41db6d576a9d228b660e4b4b --quiet
@@ -369,6 +369,7 @@ jobs:
         run: |
           haxelib git lime https://github.com/VltCrst/lime 5500313001d4453e41db6d576a9d228b660e4b4b --quiet
           haxelib install actuate --quiet
+          haxelib install format --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
 
       - uses: actions/download-artifact@v7
@@ -415,6 +416,7 @@ jobs:
         run: |
           haxelib git lime https://github.com/VltCrst/lime 5500313001d4453e41db6d576a9d228b660e4b4b --quiet
           haxelib install actuate --quiet
+          haxelib install format --quiet
           haxelib git openfl-samples https://github.com/openfl/openfl-samples --quiet
 
       - uses: actions/download-artifact@v7
