@@ -38,17 +38,21 @@ class Application #if lime extends LimeApplication #end
 	public var window:Window;
 	#end
 
+	#if lime
+	public function new(_meta:Map<String, String>)
+	#else
 	public function new()
+	#end
 	{
 		#if lime
+		super(_meta);
+		#else
 		super();
 		#end
-
 		if (Lib.application == null)
 		{
 			Lib.application = this;
 		}
-
 		#if (!flash && !macro)
 		if (Lib.current == null) Lib.current = new MovieClip();
 		Lib.current.__loaderInfo = LoaderInfo.create(null);

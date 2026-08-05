@@ -12,7 +12,7 @@ import openfl.display.SpreadMethod;
 import openfl.geom.Matrix;
 import openfl.geom.Point;
 import openfl.geom.Rectangle;
-import openfl.Vector;
+import openfl.utils.Vector;
 #if lime
 import lime.graphics.cairo.Cairo;
 import lime.graphics.cairo.CairoExtend;

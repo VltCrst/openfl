@@ -6,7 +6,7 @@ import openfl.display.BlendMode;
 import openfl.geom.Matrix;
 import openfl.geom.Point;
 import openfl.geom.Rectangle;
-import openfl.Vector;
+import openfl.utils.Vector;
 
 @:final extern class Graphics
 {

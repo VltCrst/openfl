@@ -3,7 +3,7 @@ package;
 import openfl.geom.Matrix3D;
 import openfl.geom.Orientation3D;
 import openfl.geom.Vector3D;
-import openfl.Vector;
+import openfl.utils.Vector;
 import utest.Assert;
 import utest.Test;
 

@@ -9,7 +9,7 @@ import js.html.ImageElement;
 
 /**
 	The Bitmap class represents display objects that represent bitmap images.
-	These can be images that you load with the `openfl.Assets` or
+	These can be images that you load with the `openfl.utils.Assets` or
 	`openfl.display.Loader` classes, or they can be images that you
 	create with the `Bitmap()` constructor.
 

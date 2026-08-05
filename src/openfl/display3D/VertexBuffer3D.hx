@@ -5,7 +5,7 @@ import openfl.display3D._internal.GLBuffer;
 import openfl.utils._internal.ArrayBufferView;
 import openfl.utils._internal.Float32Array;
 import openfl.utils.ByteArray;
-import openfl.Vector;
+import openfl.utils.Vector;
 
 /**
 	The VertexBuffer3D class represents a set of vertex data uploaded to a rendering context.

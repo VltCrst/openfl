@@ -95,7 +95,7 @@ package openfl.system;
 		return Type.resolveClass(name);
 	}
 
-	// @:noCompletion @:dox(hide) @:require(flash11_3) function getQualifiedDefinitionNames() : openfl.Vector<String>;
+	// @:noCompletion @:dox(hide) @:require(flash11_3) function getQualifiedDefinitionNames() : openfl.utils.Vector<String>;
 
 	/**
 		Checks to see if a public definition exists within the specified

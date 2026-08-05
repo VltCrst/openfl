@@ -4,7 +4,7 @@ package openfl.text._internal;
 import haxe.Timer;
 import openfl.display3D._internal.GLTexture;
 import openfl.utils._internal.Log;
-import openfl.Vector;
+import openfl.utils.Vector;
 import openfl.geom.Rectangle;
 import openfl.text.AntiAliasType;
 import openfl.text.Font;

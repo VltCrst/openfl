@@ -1,7 +1,7 @@
 package openfl.geom;
 
 #if !flash
-import openfl.Vector;
+import openfl.utils.Vector;
 
 /**
 	The Matrix3D class represents a transformation matrix that determines the position and

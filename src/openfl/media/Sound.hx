@@ -263,6 +263,10 @@ class Sound extends EventDispatcher
 	private var __alAudioContext:OpenALAudioContext = null;
 	#end
 
+	#if !macro
+	private var __deviceChangeID:Int = 0;
+	#end
+
 	#if openfljs
 	@:noCompletion private static function __init__()
 	{
@@ -704,6 +708,14 @@ class Sound extends EventDispatcher
 			return null;
 		}
 
+		#if !macro
+		if (__deviceChangeID < openfl.system.System.audioDeviceID)
+		{
+			__deviceChangeID = openfl.system.System.audioDeviceID;
+			restartBuffer();
+		}
+		#end
+
 		if (sndTransform == null)
 		{
 			sndTransform = new SoundTransform();
@@ -755,6 +767,26 @@ class Sound extends EventDispatcher
 		return soundChannel;
 		#else
 		return null;
+		#end
+	}
+
+	private function restartBuffer():Void
+	{
+		#if !macro
+		if (__buffer == null)
+		{
+			return;
+		}
+
+		var _parentBuffer = new AudioBuffer();
+		_parentBuffer.bitsPerSample = __buffer.bitsPerSample;
+		_parentBuffer.channels = __buffer.channels;
+		_parentBuffer.data = __buffer.data;
+		_parentBuffer.sampleRate = __buffer.sampleRate;
+
+		__buffer = a;
+		#else
+		return;
 		#end
 	}
 

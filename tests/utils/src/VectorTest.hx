@@ -1,7 +1,7 @@
 package;
 
 import openfl.errors.Error;
-import openfl.Vector;
+import openfl.utils.Vector;
 import utest.Assert;
 import utest.Test;
 

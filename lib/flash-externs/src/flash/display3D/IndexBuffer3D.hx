@@ -3,7 +3,7 @@ package flash.display3D;
 #if flash
 import openfl.utils._internal.ArrayBufferView;
 import openfl.utils.ByteArray;
-import openfl.Vector;
+import openfl.utils.Vector;
 
 @:final extern class IndexBuffer3D
 {

@@ -1,7 +1,7 @@
 package openfl.globalization;
 
 import haxe.EnumTools.EnumValueTools;
-import openfl.Vector;
+import openfl.utils.Vector;
 #if (js && html5 && haxe4)
 import js.lib.intl.DateTimeFormat;
 #end

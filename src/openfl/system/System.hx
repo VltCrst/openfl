@@ -145,6 +145,11 @@ import hl.Gc;
 	/**
 		Undocumented property
 	**/
+	public static var audioDeviceID:Int = 0;
+
+	/**
+		Undocumented property
+	**/
 	@:noCompletion @:dox(hide) public static var vmVersion(get, never):String;
 
 	#if openfljs

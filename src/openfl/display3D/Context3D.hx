@@ -1130,7 +1130,9 @@ import lime.math.Vector2;
 
 			// TODO: Read less pixels if srcRect is smaller
 
-			var data = new UInt8Array(backBufferWidth * backBufferHeight * 4);
+			var multBuffTgs = backBufferWidth * backBufferHeight * 4;
+			var poolBuffer = openfl.utils.UInt8Pool.get(multBuffTgs);
+			var data = new UInt8Array(multBuffTgs);
 			gl.readPixels(0, 0, backBufferWidth, backBufferHeight, __backBufferTexture.__format, gl.UNSIGNED_BYTE, data);
 
 			var image = new Image(new ImageBuffer(data, backBufferWidth, backBufferHeight, 32, BGRA32));
@@ -1141,6 +1143,8 @@ import lime.math.Vector2;
 				setRenderToTexture(cacheRenderToTexture, __state.renderToTextureDepthStencil, __state.renderToTextureAntiAlias,
 					__state.renderToTextureSurfaceSelector);
 			}
+
+			poolBuffer.put();
 		}
 		#end
 	}

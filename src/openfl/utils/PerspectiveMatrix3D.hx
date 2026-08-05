@@ -29,7 +29,7 @@ package openfl.utils;
 
 import openfl.geom.Matrix3D;
 import openfl.geom.Vector3D;
-import openfl.Vector;
+import openfl.utils.Vector;
 
 @SuppressWarnings("checkstyle:FieldDocComment")
 class PerspectiveMatrix3D extends Matrix3D
