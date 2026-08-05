@@ -1,4 +1,4 @@
-package openfl.utils;
+package openfl;
 
 #if (!flash || display)
 #if (!openfljs || !js)

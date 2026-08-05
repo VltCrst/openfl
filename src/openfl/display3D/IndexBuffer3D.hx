@@ -5,7 +5,7 @@ import openfl.display3D._internal.GLBuffer;
 import openfl.utils._internal.ArrayBufferView;
 import openfl.utils._internal.UInt16Array;
 import openfl.utils.ByteArray;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	IndexBuffer3D is used to represent lists of vertex indices comprising graphic elements

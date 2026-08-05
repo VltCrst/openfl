@@ -19,7 +19,7 @@ import openfl.geom.Point;
 import openfl.geom.Rectangle;
 import openfl.geom.Transform;
 import openfl.ui.MouseCursor;
-import openfl.utils.Vector;
+import openfl.Vector;
 #if lime
 import lime.graphics.cairo.Cairo;
 #end

@@ -11,7 +11,7 @@ import openfl.display.LineScaleMode;
 import openfl.display.SpreadMethod;
 import openfl.display.TriangleCulling;
 import openfl.geom.Matrix;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 #if !openfl_debug
 @:fileXml('tags="haxe,release"')

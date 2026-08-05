@@ -17,7 +17,7 @@ import openfl.display3D.Context3D;
 import openfl.display.Application;
 import openfl.geom.Rectangle;
 import openfl.Lib;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 extern class Stage extends DisplayObjectContainer implements IModule
 {

@@ -11,7 +11,7 @@ import openfl.events.ErrorEvent;
 import openfl.events.Event;
 import openfl.events.EventDispatcher;
 import openfl.geom.Matrix3D;
-import openfl.utils.Vector;
+import openfl.Vector;
 #if lime
 import lime.graphics.opengl.GL;
 import lime.graphics.RenderContext;

@@ -16,7 +16,7 @@ import openfl.text.TextFieldAutoSize;
 import openfl.text.TextFormat;
 import openfl.utils.AGALMiniAssembler;
 import openfl.utils.Assets;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 class ContextLossTest1 extends FunctionalTest
 {

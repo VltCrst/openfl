@@ -3,7 +3,7 @@ package flash.system;
 #if flash
 import openfl.utils.ByteArray;
 import openfl.utils.Object;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:final extern class ApplicationDomain
 {

@@ -633,7 +633,7 @@ import lime.math.Vector2;
 				var scaledWidth = wantsBestResolution ? width : Std.int(width * __stage.window.scale);
 				var scaledHeight = wantsBestResolution ? height : Std.int(height * __stage.window.scale);
 				#end
-				var vertexData = new Vector<Float>([
+				var vertexData = new openfl.Vector<Float>([
 					scaledWidth,
 					scaledHeight,
 					0,
@@ -662,7 +662,7 @@ import lime.math.Vector2;
 				{
 					__stage3D.__indexBuffer = createIndexBuffer(6);
 
-					var indexData = new Vector<UInt>([0, 1, 2, 2, 1, 3]);
+					var indexData = new openfl.Vector<UInt>([0, 1, 2, 2, 1, 3]);
 
 					__stage3D.__indexBuffer.uploadFromVector(indexData, 0, 6);
 				}
@@ -1618,7 +1618,7 @@ import lime.math.Vector2;
 		@throws	RangeError	Bad Input Size: When the number of elements in data is less
 		than `numRegisters*4`
 	**/
-	public function setProgramConstantsFromVector(programType:Context3DProgramType, firstRegister:Int, data:Vector<Float>, numRegisters:Int = -1):Void
+	public function setProgramConstantsFromVector(programType:Context3DProgramType, firstRegister:Int, data:openfl.Vector<Float>, numRegisters:Int = -1):Void
 	{
 		if (numRegisters == 0) return;
 

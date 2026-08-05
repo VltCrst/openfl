@@ -4,7 +4,7 @@ package openfl.text._internal;
 import openfl.utils._internal.Log;
 import openfl.text.StyleSheet;
 import openfl.text.TextFormat;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 #if !openfl_debug
 @:fileXml('tags="haxe,release"')

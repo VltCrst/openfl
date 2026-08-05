@@ -13,7 +13,7 @@ import openfl.geom.Matrix3D;
 import openfl.geom.Rectangle;
 import openfl.geom.Point;
 import openfl.utils.ByteArray;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:final extern class Context3D extends EventDispatcher
 {

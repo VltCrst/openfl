@@ -36,7 +36,7 @@ import haxe.ds.Vector as HaxeVector;
 import haxe.Constraints.IMap;
 import openfl.Lib;
 import openfl.Lib;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 class AMF3Tools
 {
@@ -101,9 +101,9 @@ class AMF3Tools
 					case _:
 						/*if (#if (haxe_ver >= 4.2) Std.isOfType #else Std.is #end (o, Vector))
 							{
-								// // case cast openfl.utils.Vector.IntVector:
+								// // case cast openfl.Vector.IntVector:
 								// // 	AIntVector(o);
-								// // case cast(@:privateAccess openfl.utils.Vector.FloatVector):
+								// // case cast(@:privateAccess openfl.Vector.FloatVector):
 								// // 	AFloatVector(o);
 								// case cast IntVector:
 								var o:Vector<Dynamic> = o;

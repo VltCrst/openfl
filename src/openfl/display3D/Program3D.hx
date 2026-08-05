@@ -11,7 +11,7 @@ import openfl.utils._internal.Log;
 import openfl.display.ShaderParameterType;
 import openfl.errors.IllegalOperationError;
 import openfl.utils.ByteArray;
-import openfl.utils.Vector;
+import openfl.Vector;
 #if lime
 import lime.graphics.opengl.GL;
 import lime.utils.BytePointer;

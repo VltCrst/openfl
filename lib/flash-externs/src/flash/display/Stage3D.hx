@@ -5,7 +5,7 @@ import openfl.display3D.Context3D;
 import openfl.display3D.Context3DProfile;
 import openfl.display3D.Context3DRenderMode;
 import openfl.events.EventDispatcher;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:require(flash11)
 extern class Stage3D extends EventDispatcher

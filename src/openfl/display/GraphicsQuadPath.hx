@@ -3,7 +3,7 @@ package openfl.display;
 #if !flash
 import openfl.display._internal.GraphicsDataType;
 #end
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	Defines a set of quadrilaterals. This is similar to using GraphicsPath `drawRect`

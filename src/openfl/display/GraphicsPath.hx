@@ -2,7 +2,7 @@ package openfl.display;
 
 #if !flash
 import openfl.display._internal.GraphicsDataType;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	A collection of drawing commands and the coordinate parameters for those

@@ -1,7 +1,7 @@
 package openfl.ui;
 
 #if !flash
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	The Multitouch class manages and provides information about the current

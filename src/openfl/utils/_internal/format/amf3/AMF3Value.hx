@@ -27,7 +27,7 @@
 
 package openfl.utils._internal.format.amf3;
 
-import openfl.utils.Vector;
+import openfl.Vector;
 import openfl.utils.ByteArray;
 import openfl.utils.IExternalizable;
 

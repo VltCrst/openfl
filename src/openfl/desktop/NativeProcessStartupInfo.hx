@@ -1,7 +1,7 @@
 package openfl.desktop;
 
 #if (haxe4 && !flash && sys && (!flash_doc_gen || air_doc_gen))
-import openfl.utils.Vector;
+import openfl.Vector;
 import openfl.filesystem.File;
 
 /**

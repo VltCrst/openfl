@@ -1,7 +1,7 @@
 package flash.display;
 
 #if flash
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:final extern class GraphicsTrianglePath implements IGraphicsData implements IGraphicsPath
 {

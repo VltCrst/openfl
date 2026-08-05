@@ -24,7 +24,7 @@ import openfl.utils.Endian;
 import openfl.utils.Future;
 import openfl.utils.Object;
 import openfl.Lib;
-import openfl.utils.Vector;
+import openfl.Vector;
 #if lime
 import lime._internal.graphics.ImageCanvasUtil; // TODO
 import lime.app.Application;
@@ -51,7 +51,7 @@ import openfl.display._internal.stats.DrawCallContext;
 	object. You can use the methods of the BitmapData class to create
 	arbitrarily sized transparent or opaque bitmap images and manipulate them
 	in various ways at runtime. You can also access the BitmapData for a bitmap
-	image that you load with the `openfl.utils.Assets` or
+	image that you load with the `openfl.Assets` or
 	`openfl.display.Loader` classes.
 
 	This class lets you separate bitmap rendering operations from the

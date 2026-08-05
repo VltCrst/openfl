@@ -15,7 +15,7 @@ import openfl.geom.Rectangle;
 import openfl.utils._internal.Float32Array;
 import openfl.utils._internal.UInt16Array;
 import openfl.utils.ObjectPool;
-import openfl.utils.Vector;
+import openfl.Vector;
 #if lime
 import lime.graphics.cairo.Cairo;
 #end

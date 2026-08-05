@@ -39,7 +39,7 @@ class Application #if lime extends LimeApplication #end
 	#end
 
 	#if lime
-	public function new(_meta:Map<String, String>)
+	public function new(?_meta:Map<String, String>)
 	#else
 	public function new()
 	#end

@@ -3,7 +3,7 @@ package flash.printing;
 #if flash
 import openfl.display.Sprite;
 import openfl.geom.Rectangle;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 extern class PrintJob
 {

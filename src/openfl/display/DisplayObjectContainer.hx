@@ -8,7 +8,7 @@ import openfl.events.Event;
 import openfl.geom.Matrix;
 import openfl.geom.Point;
 import openfl.geom.Rectangle;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	The DisplayObjectContainer class is the base class for all objects that can

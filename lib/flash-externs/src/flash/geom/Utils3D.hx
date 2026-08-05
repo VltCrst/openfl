@@ -1,7 +1,7 @@
 package flash.geom;
 
 #if flash
-import openfl.utils.Vector;
+import openfl.Vector;
 
 extern class Utils3D
 {

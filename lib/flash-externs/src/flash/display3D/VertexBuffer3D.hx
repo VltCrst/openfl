@@ -3,7 +3,7 @@ package flash.display3D;
 #if flash
 import openfl.utils._internal.ArrayBufferView;
 import openfl.utils.ByteArray;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 extern class VertexBuffer3D
 {

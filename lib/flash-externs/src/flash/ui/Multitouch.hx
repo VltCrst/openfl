@@ -1,7 +1,7 @@
 package flash.ui;
 
 #if flash
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:final extern class Multitouch
 {

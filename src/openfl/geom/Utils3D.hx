@@ -1,7 +1,7 @@
 package openfl.geom;
 
 #if !flash
-import openfl.utils.Vector;
+import openfl.Vector;
 
 /**
 	The Utils3D class contains static methods that simplify the implementation of

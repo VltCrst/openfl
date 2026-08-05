@@ -16,7 +16,7 @@ import openfl.display.IGraphicsData;
 import openfl.geom.Matrix;
 import openfl.geom.Rectangle;
 import openfl.utils.Dictionary;
-import openfl.utils.Vector;
+import openfl.Vector;
 
 @:access(flash.display.Graphics)
 @SuppressWarnings("checkstyle:FieldDocComment")
