@@ -21,7 +21,7 @@ class UInt8Pool implements IPooled
 
 		_inPool = true;
 		_isWeak = false;
-		this.getPool(length).putUnsafe(this);
+		UInt8Pool.getPool(length).putUnsafe(this);
 	}
 
 	public function putWeak():Void

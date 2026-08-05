@@ -63,11 +63,11 @@ class AssetManifestLoader implements IDisplayObjectLoader
 					{
 						var library:AssetLibrary = cast library;
 						@:privateAccess contentLoaderInfo.assetLibrary = cast library;
-						Assets.registerLibrary(contentLoaderInfo.url, library);
+						openfl.utils.Assets.registerLibrary(contentLoaderInfo.url, library);
 
-						if (manifest.name != null && !Assets.hasLibrary(manifest.name))
+						if (manifest.name != null && !openfl.utils.Assets.hasLibrary(manifest.name))
 						{
-							Assets.registerLibrary(manifest.name, library);
+							openfl.utils.Assets.registerLibrary(manifest.name, library);
 						}
 
 						var clip = library.getMovieClip("");
