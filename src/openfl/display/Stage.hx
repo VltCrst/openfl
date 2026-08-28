@@ -2049,7 +2049,7 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
 		__onLimeWindowCreate(window);
 	}
 
-	@:noCompletion private function __onLimeGamepadAxisMove(gamepad:Gamepad, axis:GamepadAxis, value:Float):Void
+	@:noCompletion private function __onLimeGamepadAxisMove(gamepad:Gamepad, axis:GamepadAxis, value:Float, timestamp:Int):Void
 	{
 		if (__uncaughtErrorEvents.__enabled)
 		{
@@ -2068,7 +2068,7 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
 		}
 	}
 
-	@:noCompletion private function __onLimeGamepadButtonDown(gamepad:Gamepad, button:GamepadButton):Void
+	@:noCompletion private function __onLimeGamepadButtonDown(gamepad:Gamepad, button:GamepadButton, timestamp:Int):Void
 	{
 		if (__uncaughtErrorEvents.__enabled)
 		{
@@ -2087,7 +2087,7 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
 		}
 	}
 
-	@:noCompletion private function __onLimeGamepadButtonUp(gamepad:Gamepad, button:GamepadButton):Void
+	@:noCompletion private function __onLimeGamepadButtonUp(gamepad:Gamepad, button:GamepadButton, timestamp:Int):Void
 	{
 		if (__uncaughtErrorEvents.__enabled)
 		{
@@ -2149,14 +2149,14 @@ class Stage extends DisplayObjectContainer #if lime implements IModule #end
 		}
 	}
 
-	@:noCompletion private function __onLimeKeyDown(window:Window, keyCode:KeyCode, modifier:KeyModifier):Void
+	@:noCompletion private function __onLimeKeyDown(window:Window, keyCode:KeyCode, modifier:KeyModifier, timestamp:Int):Void
 	{
 		if (this.window == null || this.window != window) return;
 
 		__onKey(KeyboardEvent.KEY_DOWN, keyCode, modifier);
 	}
 
-	@:noCompletion private function __onLimeKeyUp(window:Window, keyCode:KeyCode, modifier:KeyModifier):Void
+	@:noCompletion private function __onLimeKeyUp(window:Window, keyCode:KeyCode, modifier:KeyModifier, timestamp:Int):Void
 	{
 		if (this.window == null || this.window != window) return;
 

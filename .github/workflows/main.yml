@@ -264,6 +264,8 @@ jobs:
 
       - name: Install Haxe dependencies
         run: |
+          curl --output ../hxcpp-4.3.45.zip --location https://github.com/HaxeFoundation/hxcpp/releases/download/v4.3.45/hxcpp-4.3.45.zip
+          haxelib install ../hxcpp-4.3.45.zip --quiet
           haxelib git lime https://github.com/VltCrst/lime 5500313001d4453e41db6d576a9d228b660e4b4b --quiet
           haxelib install actuate --quiet
           haxelib install format --quiet

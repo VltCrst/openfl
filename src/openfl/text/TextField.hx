@@ -3544,7 +3544,7 @@ class TextField extends InteractiveObject
 	}
 
 	#if lime
-	@:noCompletion private function window_onKeyDown(key:KeyCode, modifier:KeyModifier):Void
+	@:noCompletion private function window_onKeyDown(key:KeyCode, modifier:KeyModifier, timestamp:Int):Void
 	{
 		inline function isModifierPressed()
 		{
